@@ -3,7 +3,7 @@ from datetime import datetime
 
 from django.core.management import BaseCommand
 
-from adoptions.models import Pet, Vaccine
+from adoption.models import Pet, Vaccine
 from pytz import UTC
 
 
